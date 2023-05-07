@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Media Query</a>
+            <a href="#">Mock Up</a>
+        </nave>
+            <section class="textos-header">
+                <h1>Media Queries</h1>
+            </section>
+        </header>
+            <main>
+            <section class="contenedor mediaquery">
+                <h2 class="titulo">¿Qué es una media query?</h2>
+                <div class="contenedor-mediaquery">
+                    <div class="contenido-textos">
+                    <p>Una Media Query es una regla o conjunto de reglas que se introducen un una hoja de estilo CSS con el objetivo de definir propiedades específicas para distintos tipos de medios. Por ejemplo, con una Media Query podemos especificar el ancho y el alto de un contenido, de manera que este se adapte a los límites de una impresora sin tener que cambiar el contenido original.</p>
+                    <h3 class="titulo">Origen</h3>
+                        <p>Aunque las Media Queries ya se plantearon en la primera versión de CSS allá por el año 1994, no fue hasta 2012 cuando los navegadores los incorporaron como estándar con la llegada de CSS3 y la recomendación del consorcio W3C.
+                            Desde un principio se planteó la necesidad de encontrar una forma de representar el contenido HTML en pantallas con diferentes resoluciones, siempre desde el punto de vista del cliente. El problema se iba agravando a medida que se iban introduciendo pantallas más modernas y con resoluciones mayores, mientras que otros usuarios seguían con resoluciones antiguas.
+                            Para que nos hagamos una idea de esta problemática, en 2012, año en que las Media Queries se convirtieron en estándar, convivían en el mercado más de una docena de resoluciones. Desde los 1024×768 píxels de los monitores CRT más antiguos hasta los 2560×1440 de los LCD más modernos en aquel momento. Y eso sin contar a los monitores 4K que estaban a punto de irrumpir en el mercado, ni por supuesto a los dispositivos móviles que ya suponían una parte importante de la navegación web.
+                            Además, las Media Queries también se plantearon como una forma de mejorar la accesibilidad web. A través de ellas es posible, por ejemplo, aumentar el tamaño de las fuentes en determinados dispositivos o mejorar el contraste entre el color de la letra y el fondo.</p>
+                    <h3 class="titulo">Tipos de medios</h3>
+                        <p>En la versión CSS3, podemos agregar distintos valores para seleccionar el tipo de medio al que se dirige la regla especificada en una Media Query.
+                            Los valores que podemos definir son:
+                            ·all: Se utiliza para todos los tipos de medios o dispositivos.
+                            ·print: Se utiliza para impresoras
+                            ·screen: Se utiliza para pantallas de ordenador, tablets, teléfonos móviles, etc…
+                            ·speech: Se utiliza para lectores de pantalla, generalmente utilizados por personas con discapacidad visual.</p>
+                    <h3 class="titulo">Ejemplos</h3>
+                        <p>A continuación, vamos a ver un par de ejemplos de código para ver cómo poner en práctica las Media Queries. La mayoría de programadores colocan las Media Queries en hojas de estilo CSS específicas o a continuación del CSS general de la página. Como comentamos anteriormente, la regla específica se ejecutará sólo si se cumple una condición determinada.
+                            En el primer ejemplo, el color del fondo será rojo solo si el ancho de la pantalla es inferior a 800 píxeles:</p>
+                            <center><img src="imagen2.png" alt="" class="imagenC1"></center>
+                            <p>Este ejemplo es muy sencillo, pero podemos ver de una forma clara cómo se declara la propiedad @media y la función screen para especificar el ancho de pantalla máximo.
+                            A continuación, vemos otro ejemplo. En este caso utilizamos una Media Query para cambiar el tamaño de letra de un elemento determinado en diferentes tamaños de pantalla:</p>
+                            <center><img src="imagen3.png" alt="" class="imagenC2"></center>
+                </div>
+                </div>
+            </section>
+            <section class="MockUp">
+                <div class="contenedor-mockup">
+                    <h2 class="titulo">Diseño de la pagina</h2>
+                    <p>El MockUp de la página se estableció con un diseño muy básico, pocas imagenes y colores llamativos. Se hizo el diseño en la aplicación de Figma, ya que es una herramienta de fácil manejo y con gran variedad de herramientas. Se utilizaron solo dos fuentes de texto, dos estilos de fondo e imagenes intuitivas.</p>
+                    <img src="imagen4.png" alt="" class="imagenMU">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>juansanchez3314@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Celular</h4>
+                    <p>3115756512</p>
+                </div>
+                <img src="imagen5.webp" alt="" class="imagenfoot">
+            </div>
+            <h2 class="final">&copy; Juan Sebastian Sanchez Hernandez</h2>
+        </footer>
+</body>
+</html>
