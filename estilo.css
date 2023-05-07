@@ -154,4 +154,31 @@ footer{
     .imagenMU{
         width: 98%;
     }
+    .contenedor-mockup{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+    .imagenfoot{
+        width: 90%;
+        flex-direction: column;
+    }
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content-foo h4{
+        border: none;
+    }
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid rgba(126, 126, 126, 0.83);
+    }
+    .final{
+        font-size: 20px;
+    }
 }
